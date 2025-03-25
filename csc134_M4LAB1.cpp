@@ -8,7 +8,16 @@ using namespace std;
 
 int main() 
 {
-    
+    int height, width;
+
+    height = 5;
+    width = 5;
+
+    for (int i=0; i < width; i++)
+    {
+        cout << "*" << " ";
+    }
+    cout << endl;
     
     return 0;
 
